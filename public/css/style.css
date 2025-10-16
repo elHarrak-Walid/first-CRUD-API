@@ -1,0 +1,22 @@
+ body {
+      margin: 0;
+      height: 100vh; /* Full viewport height */
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center;     /* Center vertically */
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #19c25f;
+    }
+    p{
+      align-self: flex-start; /* push to the start (top) */
+    margin: 40px; 
+    }
+    img {
+  max-width: 90%;          /* scale to fit viewport */
+  height: auto;            /* keep aspect ratio */
+}

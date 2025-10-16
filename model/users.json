@@ -1,0 +1,28 @@
+[
+  {
+    "username": "younes",
+    "pwd": "$2b$10$pMykxrh2jYUpuBG8MHBYf.QVbnrB3E23q7uP6OVpQy2Jw0Bc6nkr2",
+    "roles": {
+      "user": 12700,
+      "editor": 72020
+    }
+  },
+  {
+    "username": "nassir",
+    "pwd": "$2b$10$i74HVoLrA333J.TJ9Cf5i.Gpd3G3K3kwNQ/GgaVFPGozAp3168AaO",
+    "roles": {
+      "user": 12700
+    },
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5hc3NpciIsImlhdCI6MTc1OTk0MTQ0MSwiZXhwIjoxNzYwMDI3ODQxfQ.gEtl7mTR3kB-KeLBpCEBJYZZhXRjlC6nRiJNraNQMVo"
+  },
+  {
+    "username": "walid",
+    "pwd": "$2b$10$nSvdw.5mS5Ahj/G0rjTNSulTGNyml58Wrv7FZXzKLnlexpzbW./b6",
+    "roles": {
+      "user": 12700,
+      "admin": 92000,
+      "editor": 72020
+    },
+    "refreshToken": ""
+  }
+]
