@@ -56,14 +56,17 @@ app.use(require('cookie-parser')());
 //! Does / match? ❌ No.
 //! Does /:id match? ✅ Yes (id=2).
 //!Calls the controller:
+//? views
+app.use('/',require('./routes/root'));
+app.use('/subdir',require('./routes/subdir'));
+//? API's
 app.use('/register',require('./routes/apis/register'));
 app.use('/auth',require('./routes/apis/auth'));
 app.use('/refresh', require('./routes/apis/refresh'));
 app.use('/logout', require('./routes/apis/logout'));
 // app.use(verifyJWT);
 app.use('/employees',verifyJWT,require('./routes/apis/employees'));
-app.use('/subdir',require('./routes/subdir'));
-app.use('/',require('./routes/root'));
+
 
 
 

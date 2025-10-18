@@ -8,7 +8,7 @@ console.log(`request url: ${req.url} \trequest method :${req.method}`)});
 
 
 router.get(/^\/new-page(.html)?$/,(req, res)=>{   
-res.sendFile('../view/new-page.html',{root:__dirname})
+res.sendFile(path.join(__dirname, '..', 'view', 'new-page.html'));
 console.log(`request url: ${req.url} \trequest method :${req.method}`)});
 
 router.get(/^\/old-page(.html)?$/,(req, res)=>{   
